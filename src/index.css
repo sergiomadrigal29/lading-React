@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "bootstrap-icons/font/bootstrap-icons.css";
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(88, 0, 170);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
